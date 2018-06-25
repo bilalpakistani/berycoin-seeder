@@ -34,7 +34,8 @@ dnsseed.example.com.   86400    IN      NS     vps.example.com.
 
 On the system vps.example.com, you can now run dnsseed:
 
-./dnsseed -h dnsseed.example.com -n vps.example.com
+        ./dnsseed -h dnsseed.berycoin.com -n vps.berycoin.com -m bilal_haider032@yahoo.com
+        ./dnsseed -h dnsseed.berycoin.com -n vps.berycoin.com -m bilal_haider032@yahoo.com -p 5353
 
 If you want the DNS server to report SOA records, please provide an
 e-mail address (with the @ part replaced by .) using -m.
